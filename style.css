@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f4f4f481;
   color: #222;
 }	
 
@@ -9,8 +9,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: navy;
-  color: white;
+  background: dark green ;
+  color: green;
   padding: 15px 30px;
 }
 
@@ -75,14 +75,14 @@ button:hover {
 
 .footer {
   text-align: center;
-  background: navy;
-  color: white;
+  background: dark green ;
+  color: white (255, 255, 255, 0.469);
   padding: 20px;
 }
 
 /* Dark mode */
 .dark {
-  background-color: #111;
+  background-color: dark green ;
   color: white;
 }
 
