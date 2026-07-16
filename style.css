@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f481;
-  color: #222;
+  color: #ffffff;
 }	
 
 .navbar {
@@ -19,7 +19,7 @@ body {
 }
 
 .nav-links a {
-  color: white;
+  color: dark green  ;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -29,8 +29,8 @@ body {
 }
 
 button {
-  background: orange;
-  color: black;
+  background: rgb(255, 253, 253);
+  color: rgb(21, 96, 0);
   border: none;
   padding: 10px 16px;
   cursor: pointer;
@@ -38,13 +38,26 @@ button {
 }
 
 button:hover {
-  background: gold;
+  background: dark green ;
 }
 
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: lightblue;
+  background: rgb(0, 88, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .section {
@@ -61,7 +74,7 @@ button:hover {
 
 .card,
 .project-card {
-  background: white;
+  background: rgb(0, 113, 6);
   padding: 25px;
   width: 220px;
   border-radius: 10px;
@@ -69,33 +82,33 @@ button:hover {
 }
 
 .project-card a {
-  color: navy;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
 .footer {
   text-align: center;
   background: dark green ;
-  color: white (255, 255, 255, 0.469);
+  color: rgb(0, 116, 25) (255, 255, 255, 0.469);
   padding: 20px;
 }
 
 /* Dark mode */
 .dark {
   background-color: dark green ;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .dark .hero {
-  background-color: #333;
+  background-color: #fffafa;
 }
 
 .dark .card,
 .dark .project-card {
-  background-color: #222;
+  background-color: #ffffff;
   color: white;
 }
 
 .dark .project-card a {
-  color: orange;
+  color: rgb(247, 247, 247);
 }
