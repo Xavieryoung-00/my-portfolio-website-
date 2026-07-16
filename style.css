@@ -119,8 +119,8 @@ button:hover {
 
 /* Dark mode */
 .dark {
-  background-color: dark rgb(71, 0, 164) ;
-  color: rgb(0, 0, 0);
+  background-color: rgb(71, 0, 164);
+  color: #ffdd00;
 }
 
 .dark .hero {
@@ -129,12 +129,12 @@ button:hover {
 
 .dark .card,
 .dark .project-card {
-  background-color: #ffffff;
-  color: white;
+  background-color: #2a004a;
+  color: #ffdd00;
 }
 
 .dark .project-card a {
-  color: rgb(147, 0, 192);
+  color: #ffdd00;
 }
 p{
   font-size: 32px;
