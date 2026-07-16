@@ -134,5 +134,8 @@ button:hover {
 }
 
 .dark .project-card a {
-  color: rgb(247, 247, 247);
+  color: rgb(147, 0, 192);
+}
+p{
+  font-size: 32px;
 }
