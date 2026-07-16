@@ -2,15 +2,15 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f481;
-  color: #ffffff;
+  color: #ffdd00;
 }	
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: dark green ;
-  color: green;
+  background: dark rgb(255, 230, 0) ;
+  color: rgb(153, 0, 208);
   padding: 15px 30px;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .nav-links a {
-  color: dark green  ;
+  color: dark rgb(171, 2, 255)  ;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -29,8 +29,8 @@ body {
 }
 
 button {
-  background: rgb(255, 253, 253);
-  color: rgb(21, 96, 0);
+  background: rgb(154, 0, 243);
+  color: rgb(240, 208, 0);
   border: none;
   padding: 10px 16px;
   cursor: pointer;
@@ -38,13 +38,13 @@ button {
 }
 
 button:hover {
-  background: dark green ;
+  background: dark rgb(141, 1, 197) ;
 }
 
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: rgb(0, 88, 0);
+  background: rgb(104, 0, 174);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,7 +74,7 @@ button:hover {
 
 .card,
 .project-card {
-  background: rgb(0, 113, 6);
+  background: rgb(71, 1, 157);
   padding: 25px;
   width: 220px;
   border-radius: 10px;
@@ -89,13 +89,13 @@ button:hover {
 .footer {
   text-align: center;
   background: dark green ;
-  color: rgb(0, 116, 25) (255, 255, 255, 0.469);
+  color: rgb(255, 255, 255) (255, 255, 255, 0.469);
   padding: 20px;
 }
 
 /* Dark mode */
 .dark {
-  background-color: dark green ;
+  background-color: dark rgb(71, 0, 164) ;
   color: rgb(0, 0, 0);
 }
 
