@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   background-color: #f4f4f481;
   color: #ffdd00;
 }
@@ -138,4 +138,5 @@ button:hover {
 }
 p{
   font-size: 32px;
+  font-style:sans-serif;
 }
