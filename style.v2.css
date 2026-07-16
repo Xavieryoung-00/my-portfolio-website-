@@ -137,5 +137,5 @@ button:hover {
   color: rgb(147, 0, 192);
 }
 p{
-  font-size: 32px;
+  font-size: 32px !important;
 }
