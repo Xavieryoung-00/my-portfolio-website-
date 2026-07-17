@@ -129,12 +129,13 @@ button:hover {
 .dark .card,
 .dark .project-card {
   background-color: #2a004a;
-  color: #ffdd00;
+  color: #8800ff;
 }
 
 .dark .project-card a {
-  color: #ffdd00;
+  color: #9900ff;
 }
 p{
   font-size: 32px !important;
+  color: #7c2ae8;
 }

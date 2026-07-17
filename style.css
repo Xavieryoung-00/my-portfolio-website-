@@ -2,12 +2,12 @@ body {
   margin: 0;
   font-family: 'Poppins', Arial, sans-serif;
   background-color: #f4f4f481;
-  color: #ffdd00;
+  color: #ffcc00;
 }
 
 .article-page {
   background-color: #f7f3ff;
-  color: #2f1b4d;
+  color: #4600b0;
 }
 
 .article-container {
@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background: dark rgb(255, 230, 0) ;
-  color: rgb(153, 0, 208);
+  color: #ffe100;
   padding: 15px 30px;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .nav-links a {
-  color: dark rgb(171, 2, 255)  ;
+  color: #7b2cbf;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -68,7 +68,7 @@ button:hover {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: rgb(104, 0, 174);
+  background: rgb(255, 225, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,7 +120,7 @@ button:hover {
 /* Dark mode */
 .dark {
   background-color: rgb(71, 0, 164);
-  color: #ffdd00;
+  color: #d8b4fe;
 }
 
 .dark .hero {
@@ -129,12 +129,12 @@ button:hover {
 
 .dark .card,
 .dark .project-card {
-  background-color: #2a004a;
-  color: #ffdd00;
+  background-color: #6500b2;
+  color: #6000c7;
 }
 
 .dark .project-card a {
-  color: #ffdd00;
+  color: #6400cf;
 }
 p{
   font-size: 32px;
