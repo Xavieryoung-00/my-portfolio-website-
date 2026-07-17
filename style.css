@@ -2,12 +2,12 @@ body {
   margin: 0;
   font-family: 'Poppins', Arial, sans-serif;
   background-color: #f4f4f481;
-  color: #ffcc00;
+  color: yellow;
 }
 
 .article-page {
   background-color: #f7f3ff;
-  color: #4600b0;
+  color: yellow;
 }
 
 .article-container {
@@ -20,8 +20,9 @@ body {
 }
 
 .article-container h1,
-.article-container h2 {
-  color: #5b0ca8;
+.article-container h2,
+.article-container p {
+  color: #ffd700;
 }
 
 .article-container p {

@@ -2,19 +2,19 @@ body {
   margin: 0;
   font-family: 'Poppins', Arial, sans-serif;
   background-color: #f4f4f481;
-  color: #ffdd00;
+  color: #ffd700;
 }
 
 .article-page {
   background-color: #f7f3ff;
-  color: #2f1b4d;
+  color: #7c2ae8;
 }
 
 .article-container {
   max-width: 800px;
   margin: 40px auto;
   padding: 30px;
-  background: white;
+  background: rgb(157, 0, 255);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background: dark rgb(255, 230, 0) ;
-  color: rgb(153, 0, 208);
+  color: rgb(255, 226, 4);
   padding: 15px 30px;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .nav-links a {
-  color: dark rgb(171, 2, 255)  ;
+  color: dark rgb(255, 221, 2)  ;
   text-decoration: none;
   margin: 0 10px;
 }
