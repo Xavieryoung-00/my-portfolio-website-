@@ -2,12 +2,12 @@ body {
   margin: 0;
   font-family: 'Poppins', Arial, sans-serif;
   background-color: #f4f4f481;
-  color: #ffd700;
+  color: black;
 }
 
 .article-page {
   background-color: #f7f3ff;
-  color: #7c2ae8;
+  color: black;
 }
 
 .article-container {
@@ -98,7 +98,7 @@ button:hover {
 
 .card,
 .project-card {
-  background: rgb(71, 1, 157);
+  background: white;
   padding: 25px;
   width: 220px;
   border-radius: 10px;
@@ -137,5 +137,5 @@ button:hover {
 }
 p{
   font-size: 32px !important;
-  color: #7c2ae8;
+  color: black;
 }
